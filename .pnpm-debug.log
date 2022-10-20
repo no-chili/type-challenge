@@ -1,0 +1,47 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "type-challenge",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "C:\\Users\\18875\\Desktop\\个人\\type-challenge"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\18875\\AppData\\Local\\pnpm\\store\\v3",
+    "virtualStoreDir": "C:\\Users\\18875\\Desktop\\个人\\type-challenge\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Users\\18875\\Desktop\\个人\\type-challenge",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "shortMessage": "Command failed with exit code 128: D:\\Program Files\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/type-challenges/utils.git HEAD",
+    "command": "D:\\Program Files\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/type-challenges/utils.git HEAD",
+    "escapedCommand": "\"D:\\Program Files\\Git\\cmd\\git.EXE\" ls-remote \"git+ssh://git@github.com/type-challenges/utils.git\" HEAD",
+    "exitCode": 128,
+    "stdout": "",
+    "stderr": "ERROR: Repository not found.\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.",
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 128: D:\\Program Files\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/type-challenges/utils.git HEAD\nERROR: Repository not found.\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.",
+      "stack": "pnpm: Command failed with exit code 128: D:\\Program Files\\Git\\cmd\\git.EXE ls-remote git+ssh://git@github.com/type-challenges/utils.git HEAD\nERROR: Repository not found.\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n    at makeError (C:\\Users\\18875\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:42676:17)\n    at handlePromise (C:\\Users\\18875\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43247:33)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async getRepoRefs (C:\\Users\\18875\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:83824:23)\n    at async resolveRef (C:\\Users\\18875\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:83836:20)\n    at async resolveGit (C:\\Users\\18875\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:83787:24)\n    at async Object.resolve (C:\\Users\\18875\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:84942:162)\n    at async run (C:\\Users\\18875\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:91747:23)"
+    }
+  }
+}
